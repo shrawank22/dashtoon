@@ -7,11 +7,11 @@ function Navbar ({onGenerateComicClick}) {
         <>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" component="div" style={{ flexGrow: 1 }}>
+                    <Typography variant="h4" component="div" style={{ flexGrow: 1 }}>
                         Dashtoon
                     </Typography>
 
-                    <Button color="inherit" onClick={onGenerateComicClick}>
+                    <Button color="inherit" style={{ padding: '10px', fontSize: '18px' }} onClick={onGenerateComicClick}>
                         Generate Comic
                     </Button>
                 </Toolbar>

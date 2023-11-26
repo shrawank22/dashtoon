@@ -43,10 +43,10 @@ function App() {
     return (
         <>
             <Navbar onGenerateComicClick={handleGenerateComicClick} />
-            <Container maxWidth="lg">
+            <Container maxWidth="lg" style={{marginTop: '10px'}}>
                 <ToastContainer />
-                <Typography variant="h2" component="h1" gutterBottom>
-                    Comic Strip Creator
+                <Typography variant="h2" component="h2" gutterBottom style={{textAlign: 'center'}}>
+                    Comic Strip Generator
                 </Typography>
                 { showInputForm && <InputForm onSubmit={generateComic} isLoading={isLoading}/> }
                 <Grid container spacing={3} style={{ marginTop: '20px' }}>
