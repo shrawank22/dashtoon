@@ -11,7 +11,7 @@ function Navbar ({onGenerateComicClick}) {
                         Dashtoon
                     </Typography>
 
-                    <Button color="inherit" style={{ padding: '10px', fontSize: '18px' }} onClick={onGenerateComicClick}>
+                    <Button color="inherit" style={{ padding: '5px', fontSize: '14px' }} onClick={onGenerateComicClick}>
                         Generate Comic
                     </Button>
                 </Toolbar>

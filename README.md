@@ -1,6 +1,6 @@
 <p align="center">
  <h1 style="text-align:center;">Comic Generator Application</h1>
- <h2 style="text-align:center;">See Live at https://github.com/shrawank22</h2>
+ <h2 style="text-align:center;">See Live at https://dashtoon-comic-generator.onrender.com/</h2>
 </p>
 
 ### Steps to Run the Application onto your local machine
