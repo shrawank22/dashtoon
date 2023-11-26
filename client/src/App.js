@@ -22,6 +22,8 @@ function App() {
             const response = await axios.post(`${apiUrl}/generateComic`, { texts });
             // console.log(response.data.images);
             setComicImages(response.data.images);
+
+            setShowInputForm(false);
         } catch (error) {
             toast.error("Error generating comic: " + error.message, {
                 position: "top-right",
