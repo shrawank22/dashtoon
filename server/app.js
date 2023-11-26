@@ -6,7 +6,12 @@ const axios = require('axios');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin:[
+        "http://localhost:3000/",
+        "https://dashtoon-comic-generator.onrender.com/"
+    ]
+}));
 app.use(express.json());
 
 const API_ENDPOINT = "https://xdwvg9no7pefghrn.us-east-1.aws.endpoints.huggingface.cloud";
