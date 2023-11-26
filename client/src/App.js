@@ -18,8 +18,8 @@ function App() {
     const generateComic = async (texts) => {
         setIsLoading(true);
         try {
-            const apiUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3001';
-            console.log(apiUrl)
+            const apiUrl = process.env.REACT_APP_BACKEND_URL;
+            // console.log(apiUrl)
             const response = await axios.post(`${apiUrl}/generateComic`, { texts });
             // console.log(response.data.images);
             setComicImages(response.data.images);
